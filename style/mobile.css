@@ -1,0 +1,51 @@
+/* Mobile-specific styles */
+@media screen and (max-width: 1080px) {
+    html, body {
+        overflow-x: hidden;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .holder {
+        width: 95%;
+    }
+    
+    .header {
+        height: auto;
+    }
+    
+    .logo {
+        font-size: 48px;
+        margin-bottom: 0;
+    }
+    
+    .navigation {
+        width: 100%; 
+        padding: 10px;
+        box-sizing: border-box;
+        -webkit-tap-highlight-color: transparent;
+        -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+    }
+    
+    .container, .containerChat {
+        max-height: 400px;
+        height: auto;
+        margin: 10px auto;
+        padding: 10px;
+        box-sizing: border-box;
+    }
+    
+    .con1, .con3, .con2 {
+        width: 100%;
+    }
+    
+    .spacer0, .spacer, .spacer2, .spacer3, .spacer4,
+    .spacer5, .spacer6, .spacer7, .spacer8, .spacer9,
+    .spacer10, .spacer11, .spacer12 {
+        height: 40px;
+    }
+    
+    .donationspace {
+        height: auto;
+    }
+}

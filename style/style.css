@@ -1,0 +1,151 @@
+body {
+    background-image: url('/images/1.png');
+    background-position: center;
+    background-size: cover;
+    background-attachment: fixed;
+    font-family: Helvetica, sans-serif;
+    font-size: 11px;
+    color: #EBE2CA;
+    margin: 0px;
+    padding: 0px;
+}
+
+.holder {
+    width: 990px;
+    margin: 5% auto;
+}
+
+.header {
+    height: 100px;
+}
+
+.logo {
+    font-size: 102px;
+    color: #f2f2f2;
+    text-shadow: 2px 2px 10px #000000;
+    text-align: center; 
+}
+
+.container {
+    background-color: rgba(16, 16, 16, 0.75);
+    border: 1px solid #5C5C5C;
+    padding: 10px;
+    float: left;
+    box-shadow: 1px 2px 10px #000000;
+    border-radius: 5px;
+}
+
+.container::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.containerChat {
+    background-color: rgba(40, 42, 46, 1);
+    border: 1px solid #5C5C5C;
+    padding: 10px;
+    float: left;
+    box-shadow: 1px 2px 10px #000000;
+    border-radius: 5px;
+    overflow-y: auto;
+}
+
+.navigation {
+    background-color: rgba(16, 16, 16, 0.75);
+    border: 1px solid #5C5C5C;
+    padding: 2px 5px;
+    box-shadow: 1px 2px 10px #000000;
+    border-radius: 5px;
+    text-align: center;
+    margin: 10px auto;
+    width: 968px;
+}
+
+.con1 {
+    text-align: center;
+}
+
+.con1, .con3 {
+    width: 150px;
+    margin: 0px 6px;
+    height: 555px;
+    word-wrap: break-word; 
+    overflow-wrap: break-word; 
+}
+
+.con2 {
+    width: 600px;
+    height: 555px;
+}
+
+.post-header {
+    font-size: 10pt;
+    font-weight: 800;
+}
+
+.post-content {
+    margin: 5px 5px 5px;
+}
+
+#wrapper {
+    width: 100%;
+    height: auto;
+    overflow: hidden;
+}
+
+#mask {
+    width: 500%;
+}
+
+.item {
+    width: 20%;
+    height: 100%;
+    float: left;
+}
+
+.donationspace {
+    height: 175px;
+}
+
+.spacer0 { height: 5px; }
+.spacer { height: 10px; }
+.spacer2 { height: 60px; }
+.spacer3 { height: 40px; }
+.spacer4 { height: 140px; }
+.spacer5 { height: 110px; }
+.spacer6 { height: 100px; }
+.spacer7 { height: 20px; }
+.spacer8 { height: 15px; }
+.spacer9 { height: 70px; }
+.spacer10 { height: 160px; }
+.spacer11 { height: 650px; }
+.spacer12 { height: 120px; }
+
+.selected {
+    font-size: 9pt;
+}
+
+.raquo {
+    vertical-align: 11%;
+}
+
+img {
+    border: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #EBE2CA;
+    font-weight: bold;
+}
+
+a:hover {
+    text-shadow: 1px 1px 1px #c16b50;
+    color: #EBE2CA;
+}
+
+.logo a:hover {
+    text-shadow: 3px 3px 3px #c16b50;
+    color: #EBE2CA;
+}
